@@ -9,9 +9,10 @@ total = (nota1 + nota2 + nota3 + nota4)
 
 soma = total / 4
 
+print(f'A sua média é: {soma}')
+
 if soma >= 6:
     print("Você passou!!!")
 else:
     print('Reprovado')
 
-print(f'A sua média é: {soma}')
